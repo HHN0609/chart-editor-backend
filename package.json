@@ -1,0 +1,27 @@
+{
+  "name": "chart-editor-backend",
+  "version": "1.0.0",
+  "description": "simple server for chart-editor",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHN0609/chart-editor-backend.git"
+  },
+  "author": "hehaonan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HHN0609/chart-editor-backend/issues"
+  },
+  "homepage": "https://github.com/HHN0609/chart-editor-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
